@@ -8,7 +8,8 @@ import {
   Route,
 } from "react-router-dom";
 import NoMatch from './NoMatch/NoMatch';
-import PostDetails from './Components/PostDetails';
+import PostDetails from './Components/PostDetails/PostDetails';
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/post/:postID">
-         <PostDetails> </PostDetails>
+        <PostDetails> </PostDetails>
         </Route>
         <Route path="/home">
           <Home></Home>

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import { useParams } from "react-router-dom";
 import Axios from 'axios';
 import { Box, Avatar, Typography } from "@material-ui/core";
-import MaterialUi from '../Components/MaterialUi/MaterialUi';
+import MaterialUi from '../MaterialUi/MaterialUi';
 
 
 const PostDetails = () => {
@@ -25,7 +25,7 @@ const PostDetails = () => {
 let {id, title, body} = post
     return (
         <div>
-          <MaterialUi></MaterialUi>
+          <MaterialUi> </MaterialUi>
            
            <Box mx={35} p={4} boxShadow={4}>
             
