@@ -62,6 +62,7 @@ let {id, title, body} = post
         </ul>
       
       </Box>
+   
         </div> 
     );
 };

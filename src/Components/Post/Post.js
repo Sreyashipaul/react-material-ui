@@ -15,7 +15,7 @@ const useStyles = makeStyles({
 });
 
 const Post = ({singlePost}) => {
-    let { userId, id, title, body } = singlePost;
+    let {  id, title, body } = singlePost;
   let history = useHistory();
   let handleCommentButton = (postID) => {
     history.push(`/post/${postID}`);
